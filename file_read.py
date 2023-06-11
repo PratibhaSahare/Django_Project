@@ -1,0 +1,5 @@
+file_data=open('myfile.txt','r')
+data=file_data.read()
+print(data)
+file_data=open('myfile.txt','w')
+file_data.write('My name is pratibha')
